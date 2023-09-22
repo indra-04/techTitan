@@ -1,0 +1,40 @@
+* {
+    /* global reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+  }
+
+.body{
+    min-height: 100vh;
+}
+
+.side-bar{
+  position: fixed;
+  background-color: green;
+  width: 20vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.name{
+  width:20%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.name .logopic img{
+ width:100%;
+}
+
+.side-bar li{
+  font-size: 20px;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+}
