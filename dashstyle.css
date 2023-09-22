@@ -11,10 +11,11 @@
 }
 
 .side-bar{
-  position: fixed;
-  background-color: green;
+  position: absolute;
+  top: 0;
+  background-color: rgb(85, 197, 85);
   width: 20vw;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
 }
@@ -38,7 +39,14 @@
   display: flex;
   align-items: center;
 }
-
 .hidden {
   display: none;
+}
+
+.logopic{
+  position: absolute;
+
+  left: 37vw;
+  height: 25%;
+  width: 25%;
 }
